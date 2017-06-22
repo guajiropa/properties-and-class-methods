@@ -55,11 +55,7 @@ class ShippingContainer:
             owner_code=owner_code,
             serial=ShippingContainer._get_next_serial())
     # This property demonstrates how properties are inherited
-    # by children classes of this class. Notice that this property
-    # is mentioned in the constructor for
-    # 'RefrigeratedShippingContainer' in both the constructor and
-    # the call to the parent class in the 'super' call to the parent
-    # class
+    # by children classes of this class.
 
     @property
     def volume_ft3(self):
